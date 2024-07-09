@@ -1,0 +1,4 @@
+select * from cust_data
+
+select distinct from cust_data
+
