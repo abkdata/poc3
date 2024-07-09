@@ -1,0 +1,2 @@
+docker build -t delta-lake-spark .
+docker run --name delta-lake-spark-container delta-lake-spark

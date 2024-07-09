@@ -1,0 +1,73 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:14
+    environment:
+      POSTGRES_USER: example
+      POSTGRES_PASSWORD: example
+      POSTGRES_DB: customerdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  mongodb:
+    image: mongo:6
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  spark:
+    image: spark-with-delta:latest
+    environment:
+      - SPARK_MODE=master
+    ports:
+      - "7077:7077"
+      - "8080:8080"
+    volumes:
+      - shared_data:/data
+
+  spark-worker:
+    image: spark-with-delta:latest
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark:7077
+    depends_on:
+      - spark
+    ports:
+      - "8081:8081"
+    volumes:
+      - shared_data:/data
+
+  superset:
+    image: apache/superset
+    ports:
+      - "8088:8088"
+    environment:
+      SUPERSET_ENV: development
+      SUPERSET_LOAD_EXAMPLES: "no"
+    depends_on:
+      - postgres
+      - mongodb
+    volumes:
+      - ./superset_config.py:/app/pythonpath/superset_config.py
+
+  jupyter:
+    image: jupyter/pyspark-notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - SPARK_MODE=master
+      - JAVA_HOME=/opt/bitnami/java
+    depends_on:
+      - spark
+
+volumes:
+  postgres_data:
+  mongo_data:
+  shared_data:

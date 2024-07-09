@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "6687a612fa8b5ed6c1302261",
+    "cust_id": 315362,
+    "Customer": "Dawn Hill DDS",
+    "KYC_Status": "Pending",
+    "Prod_Purchased": "Product_A",
+    "Purchase_mode": "Online",
+    "Cancellation_Status": "Cancelled",
+    "Special_Remarks": "Special discount applied"
+  },
+  {
+    "_id": "6687a612fa8b5ed6c1302262",
+    "cust_id": 324170,
+    "Customer": "Elizabeth Turner",
+    "KYC_Status": "Verified",
+    "Prod_Purchased": "Product_C",
+    "Purchase_mode": "In-Store",
+    "Cancellation_Status": "Cancelled",
+    "Special_Remarks": "Requires follow-up"
+  },
+  {
+    "_id": "6687a612fa8b5ed6c1302263",
+    "cust_id": 368538,
+    "Customer": "Scott Roach",
+    "KYC_Status": "Verified",
+    "Prod_Purchased": "Product_B",
+    "Purchase_mode": "In-Store",
+    "Cancellation_Status": "Cancelled",
+    "Special_Remarks": "Requires follow-up"
+  },
+  {
+    "_id": "6687a612fa8b5ed6c1302264",
+    "cust_id": 338967,
+    "Customer": "Jeremy Foster",
+    "KYC_Status": "Rejected",
+    "Prod_Purchased": "Product_D",
+    "Purchase_mode": "In-Store",
+    "Cancellation_Status": "Not Cancelled",
+    "Special_Remarks": "High priority customer"
+  },
+  {
+    "_id": "6687a612fa8b5ed6c1302265",
+    "cust_id": 336146,
+    "Customer": "Carol Browning",
+    "KYC_Status": "Pending",
+    "Prod_Purchased": "Product_B",
+    "Purchase_mode": "In-Store",
+    "Cancellation_Status": "Cancelled",
+    "Special_Remarks": "High priority customer"
+  },
+  {
+    "_id": "6687a612fa8b5ed6c1302266",
+    "cust_id": 337522,
+    "Customer": "Stephen Grant",
+    "KYC_Status": "Pending",
+    "Prod_Purchased": "Product_A",
+    "Purchase_mode": "In-Store",
+    "Cancellation_Status": "Not Cancelled",
+    "Special_Remarks": "No special remarks"
+  },
+  {
+    "_id": "6687a612fa8b5ed6c1302267",
+    "cust_id": 314646,
+    "Customer": "John Johnson",
+    "KYC_Status": "Verified",
+    "Prod_Purchased": "Product_D",
+    "Purchase_mode": "In-Store",
+    "Cancellation_Status": "Cancelled",
+    "Special_Remarks": "No special remarks"
+  },
+  {
+    "_id": "6687a612fa8b5ed6c1302268",
+    "cust_id": 300493,
+    "Customer": "Lisa Robertson",
+    "KYC_Status": "Pending",
+    "Prod_Purchased": "Product_C",
+    "Purchase_mode": "In-Store",
+    "Cancellation_Status": "Not Cancelled",
+    "Special_Remarks": "Frequent buyer"
+  },
+  {
+    "_id": "6687a612fa8b5ed6c1302269",
+    "cust_id": 393165,
+    "Customer": "Kathryn Zavala",
+    "KYC_Status": "Verified",
+    "Prod_Purchased": "Product_D",
+    "Purchase_mode": "In-Store",
+    "Cancellation_Status": "Not Cancelled",
+    "Special_Remarks": "Requires follow-up"
+  },
+  {
+    "_id": "6687a612fa8b5ed6c130226a",
+    "cust_id": 396342,
+    "Customer": "Christine Murphy",
+    "KYC_Status": "Rejected",
+    "Prod_Purchased": "Product_A",
+    "Purchase_mode": "In-Store",
+    "Cancellation_Status": "Cancelled",
+    "Special_Remarks": "High priority customer"
+  }
+]

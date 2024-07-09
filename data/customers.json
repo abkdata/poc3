@@ -1,0 +1,92 @@
+[
+    {
+        "id": 393387,
+        "name": "Robert Roberts",
+        "ssn": "783-70-9451",
+        "dob": "1960-08-31",
+        "start_date": "2020-08-12",
+        "kyc_date": "2024-06-28",
+        "net_worth": 118143.47
+    },
+    {
+        "id": 328979,
+        "name": "Karina Mccall",
+        "ssn": "537-54-0255",
+        "dob": "1978-10-09",
+        "start_date": "2022-05-05",
+        "kyc_date": "2024-02-18",
+        "net_worth": 293156.99
+    },
+    {
+        "id": 382783,
+        "name": "Brendan Robinson",
+        "ssn": "629-46-3325",
+        "dob": "1952-06-09",
+        "start_date": "2021-07-05",
+        "kyc_date": "2024-01-23",
+        "net_worth": 626318.3
+    },
+    {
+        "id": 376185,
+        "name": "Kevin Reese",
+        "ssn": "759-66-4425",
+        "dob": "2001-03-02",
+        "start_date": "2021-05-19",
+        "kyc_date": "2024-02-18",
+        "net_worth": 300614.25
+    },
+    {
+        "id": 342387,
+        "name": "Joseph Murphy",
+        "ssn": "280-67-0956",
+        "dob": "1972-11-03",
+        "start_date": "2021-02-11",
+        "kyc_date": "2024-05-08",
+        "net_worth": 639343.91
+    },
+    {
+        "id": 348521,
+        "name": "Victoria Johnson",
+        "ssn": "049-70-5675",
+        "dob": "1992-10-29",
+        "start_date": "2023-05-18",
+        "kyc_date": "2024-02-26",
+        "net_worth": 156155.97
+    },
+    {
+        "id": 330745,
+        "name": "Carol Horne",
+        "ssn": "029-34-3638",
+        "dob": "1974-07-03",
+        "start_date": "2021-08-22",
+        "kyc_date": "2024-01-27",
+        "net_worth": 129165.32
+    },
+    {
+        "id": 385153,
+        "name": "Nathan Hogan",
+        "ssn": "344-72-7707",
+        "dob": "1971-04-04",
+        "start_date": "2022-01-30",
+        "kyc_date": "2024-06-28",
+        "net_worth": 944101.19
+    },
+    {
+        "id": 340956,
+        "name": "Kevin Harris",
+        "ssn": "867-16-1737",
+        "dob": "1952-05-19",
+        "start_date": "2020-09-19",
+        "kyc_date": "2024-02-04",
+        "net_worth": 544493.96
+    },
+    {
+        "id": 325547,
+        "name": "Latoya Lawson",
+        "ssn": "324-14-3251",
+        "dob": "1950-06-17",
+        "start_date": "2023-07-30",
+        "kyc_date": "2024-05-12",
+        "net_worth": 532350.87
+    }
+]

@@ -1,0 +1,5 @@
+Install necessary libraries: Ensure you have the required libraries.
+pip install pyspark psycopg2-binary   <Done >
+pip install pyspark   (Done in VScode)
+
+Jupyter note pass: dev1dev      token: 1924d89091a25096f790c49a45f0f5693a1025eb3564fefe

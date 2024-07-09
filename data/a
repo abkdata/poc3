@@ -1,0 +1,15 @@
+#Table 1
+create table cust_data (id integer,name text,ssn varchar,dob date,start_date date,kyc_date date,net_worth money)
+
+select * from cust_data
+
+# Table 2
+create table product_data (id integer,name text,type varchar)
+
+select * from product_data
+
+/Table 3
+
+create table cust_prod_data (id integer, customer_id integer, product_id integer, start_date date, end_date date, amount_invested money, active bool)
+
+select * from cust_prod_data
